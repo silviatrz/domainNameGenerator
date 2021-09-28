@@ -26,9 +26,6 @@ const generateDomain = (pronoun, adj, noun, extension) => {
   return domain;
 };
 
-//for (let p in pronoun) {
-//domain = p;
-//}
 console.log(generateDomain(pronoun, adj, noun, extension));
 document.querySelector("#domains").innerHTML = generateDomain(
   pronoun,
